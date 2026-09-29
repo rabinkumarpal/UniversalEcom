@@ -484,4 +484,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-<p align="center">Built with ❤️ using <a href="https://laravel.com">Laravel</a></p>
+<p align="center">Built with ❤️ using <a href="https://laravel.com">Laravel</a> &nbsp;|&nbsp; Created by <a href="https://rabinpal.com">Rabin Kr Pal</a></p>
