@@ -1,0 +1,24 @@
+{
+    "name": "packages/b2b-commerce",
+    "description": "B2B Corporate Accounts, Negotiated Contract Pricing, Credit Limits & Purchase Orders Add-on",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Principal Architect",
+            "email": "architect@ecom-laravel.test"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Packages\\B2BCommerce\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Packages\\B2BCommerce\\B2BCommerceServiceProvider"
+            ]
+        }
+    }
+}

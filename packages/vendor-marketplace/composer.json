@@ -1,0 +1,18 @@
+{
+    "name": "acme/vendor-marketplace",
+    "description": "Portable Vendor Marketplace Addon for Universal Ecommerce Platform",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Packages\\VendorMarketplace\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Packages\\VendorMarketplace\\VendorMarketplaceServiceProvider"
+            ]
+        }
+    }
+}
